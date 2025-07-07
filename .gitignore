@@ -1,0 +1,34 @@
+# Epsilon SDK specific
+__pycache__/
+.venv/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Epsilon generated files
+archetypes/
+build/
+*.log
+
+# Credentials and config
+.epsilon_sdk/
+credentials.ini
+.env
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
