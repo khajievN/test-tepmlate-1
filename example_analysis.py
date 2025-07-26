@@ -6,7 +6,7 @@ print(f"Dataset size: {len(dataset)} records")
 
 # Access data with simple dot notation
 for patient in dataset:
-    print(f"Patient {patient.patient.patient_id}: {patient.patient.diagnosis}")
+    print(f"Patient: {patient.patient.diagnosis}")
     
     # Access nested data easily
     if patient.patient.vitals.stable:
