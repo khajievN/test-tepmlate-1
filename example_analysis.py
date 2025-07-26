@@ -1,8 +1,4 @@
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), 'archetypes', 'healthcare_db'))
-
-from healthcare_db import create_dataset
+from archetypes.healthcare_db.healthcare_db import create_dataset
 
 # Load your dataset
 dataset = create_dataset()

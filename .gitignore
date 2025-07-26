@@ -12,7 +12,6 @@ env.bak/
 venv.bak/
 
 # Epsilon generated files
-archetypes/
 *.log
 
 # Credentials and config
