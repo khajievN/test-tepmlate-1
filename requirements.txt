@@ -1,5 +1,5 @@
 # Core Epsilon SDK - Install from Git repository
-git+https://github.com/Epsilon-Data/epsilon-sdk.git
+git+https://github.com/khajievN/epsilon-sdk.git
 
 # Core dependencies (also required by Epsilon SDK)
 requests>=2.25.0
