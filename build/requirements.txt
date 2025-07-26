@@ -1,0 +1,26 @@
+# Auto-generated requirements using pip freeze
+# Generated from: example_analysis.py
+# Generated at: 2025-07-26 13:08:21.084821
+
+certifi==2025.6.15
+charset-normalizer==3.4.2
+click==8.1.8
+epsilon-sdk @ git+https://github.com/Epsilon-Data/epsilon-sdk.git@5e7e1f142b07692043fba273c612259a3cffc65d
+idna==3.10
+markdown-it-py==3.0.0
+mdurl==0.1.2
+numpy==2.0.2
+pandas==2.3.0
+Pygments==2.19.2
+python-dateutil==2.9.0.post0
+pytz==2025.2
+PyYAML==6.0.2
+requests==2.32.4
+rich==14.0.0
+scipy==1.13.1
+shellingham==1.5.4
+six==1.17.0
+typer==0.16.0
+typing_extensions==4.14.1
+tzdata==2025.2
+urllib3==2.5.0

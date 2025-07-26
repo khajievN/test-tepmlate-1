@@ -1,0 +1,21 @@
+version: '1.0'
+analysis:
+  name: Example Analysis
+  description: Analysis from example_analysis.py
+  script_file: example_analysis.py
+  requirements: requirements.txt
+datasets:
+- dataset_id: healthcare_db
+  import_path: archetypes.healthcare_db.healthcare_db
+  function_name: create_dataset
+  archetype_path: archetypes/healthcare_db/healthcare_db.json
+privacy:
+  epsilon: 1.0
+execution:
+  environment: enclave
+  timeout: 300
+generated_at: '2025-07-26 13:08:21.085010'
+build_info:
+  command: epsilon build example_analysis.py
+  detected_datasets: 1
+  original_script: example_analysis.py
