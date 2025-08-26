@@ -9,6 +9,8 @@ def checkUsers():
     # Access data with simple dot notation
     for patient in dataset:
         print(f"Patient: {patient.patient.diagnosis}")
+        print(f"Patient ID: {patient.patient.patient_id}")
+        listOfUsers.append(patient)
         # Access nested data easily
         if patient.patient.vitals.stable:
             print(f"Heart rate: {patient.patient.vitals.heart_rate} BPM")
