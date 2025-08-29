@@ -4,18 +4,14 @@ analysis:
   description: Analysis from example_analysis.py
   script_file: example_analysis.py
   requirements: requirements.txt
-datasets:
-- dataset_id: healthcare_db
-  import_path: archetypes.healthcare_db.healthcare_db
-  function_name: create_dataset
-  archetype_path: archetypes/healthcare_db/healthcare_db.json
+datasets: []
 privacy:
   epsilon: 1.0
 execution:
   environment: enclave
   timeout: 300
-generated_at: '2025-08-23 11:31:13.102941'
+generated_at: '2025-08-29 11:13:48.839669'
 build_info:
   command: epsilon build example_analysis.py
-  detected_datasets: 1
+  detected_datasets: 0
   original_script: example_analysis.py
