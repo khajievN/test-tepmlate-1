@@ -9,4 +9,5 @@ def checkUsers():
     # Access data with simple dot notation
     for patient in dataset:
         print(f"Patient: {patient.patient.diagnosis}")
+        print(f"Patient ID: {patient.patient.patient_id}")
     return listOfUsers
